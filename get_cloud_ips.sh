@@ -220,7 +220,7 @@ echo
 
 ##########################
 
-cat $DEPOSIT/* old_blacklist.txt | sort -uV | grep -v ^\# > $output_file
+cat $DEPOSIT/* oldblacklist.txt | sort -uV | grep -v ^\# > $output_file
 
 
 echo "added $(cat $output_file | wc -l) ranges to $output_file"
